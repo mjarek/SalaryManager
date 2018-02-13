@@ -10,38 +10,35 @@ namespace SalaryManagerConsole.Repository
 {
     class CreatorStrategy
     {
-        private Dictionary<string, Type> _salary;
+        private Dictionary<string, Type> _strategies;
         public CreatorStrategy()
         {
             LoadStrategy();
         }
 
-
-
-
         private void LoadStrategy()
         {
-            _salary = new Dictionary<string, Type>();
+            _strategies = new Dictionary<string, Type>();
 
             foreach (var type in Assembly.GetExecutingAssembly().GetTypes())
             {
-                if (type.GetInterface(typeof(ISalaryRepository).ToString()) != null)
+                if (type.GetInterface(typeof(IStrategy).ToString()) != null)
                 {
-                    _salary.Add(type.Name.ToLower(), type);
+                    _strategies.Add(type.Name.ToLower(), type);
                 }
             }
         }
 
         private Type GetTypeToCreate(string name)
         {
-            return (from checker in _salary where checker.Key.Equals(name) select _salary[checker.Key]).FirstOrDefault();
+            return _strategies.Where(x => x.Key.Equals(name)).Select(x => x.Value).FirstOrDefault();    
         }
 
-        public ISalaryRepository GetStrategy(Helper.Country name)
+        public IStrategy GetStrategy(Helper.Country name)
         {
-            var t = GetTypeToCreate(name.ToString().ToLower());
-            if (t == null) return null;
-            return Activator.CreateInstance(t) as ISalaryRepository;
+            var type = GetTypeToCreate(name.ToString().ToLower());
+            if (type == null) return null;
+            return Activator.CreateInstance(type) as IStrategy;
         }
     }
 }

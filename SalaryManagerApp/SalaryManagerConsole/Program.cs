@@ -11,12 +11,27 @@ namespace SalaryManagerConsole
     {
         static void Main(string[] args)
         {
-            //First scenario : Team works in Denamrk.
+            var manager = new SalaryManager(new SalaryInternationalTeam());
+            var creatorStrategy = new CreatorStrategy();
 
-            var yourChoice = Helper.Country.Denmark;
-            var strategy = new CreatorStrategy().GetStrategy(yourChoice);
-            var manager = new SalaryManager(strategy);
-           
+            Console.WriteLine(Environment.NewLine+"First scenario : Team works in Denmark" + Environment.NewLine); 
+            manager.Strategy = creatorStrategy.GetStrategy(Helper.Country.Denmark);
+            Helper.ShowMessageAboutSalaries(manager.RecalculationSalary());
+
+            
+            Console.WriteLine(Environment.NewLine + "Second scenario: move team to Poland" + Environment.NewLine);
+            manager.Strategy = creatorStrategy.GetStrategy(Helper.Country.Poland);
+            Helper.ShowMessageAboutSalaries(manager.RecalculationSalary());
+
+            Console.WriteLine(Environment.NewLine + "Third scenario: Back to Denmark" + Environment.NewLine);
+            manager.Strategy = creatorStrategy.GetStrategy(Helper.Country.Denmark);
+            Helper.ShowMessageAboutSalaries(manager.RecalculationSalary());
+
+
+
+
+
+
         }
     }
 }

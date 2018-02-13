@@ -9,16 +9,25 @@ namespace SalaryManagerConsole.Repository
 {
     class Denmark : IStrategy
     {
+        public string Country => "Denmark";
+        public string Currency => "DKK";
+
         public double GetEuroRate()
         {
-            var client = new WsCurrency.CurrencyConverterClient();
-            return client.GetDanishEuroRate();
+            try
+            {
+                var client = new WsCurrency.CurrencyConverterClient();
+                return client.GetDanishEuroRate();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                Console.Read();
+                throw ex;
+            }
+            
 
         }
 
-        public void ReCalculateSalary()
-        {
-            throw new NotImplementedException();
-        }
     }
 }

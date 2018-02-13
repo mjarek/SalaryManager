@@ -9,6 +9,8 @@ namespace SalaryManagerConsole.Repository
 {
     class Poland : IStrategy
     {
+        public string Country => "Poland";
+        public string Currency => "PLN";
         public double GetEuroRate()
         {
             try
@@ -19,14 +21,11 @@ namespace SalaryManagerConsole.Repository
             }
             catch (Exception ex)
             {
-
+                Console.WriteLine(ex.Message);
+                Console.Read();
                 throw ex;
             }
         }
 
-        public void ReCalculateSalary()
-        {
-            throw new NotImplementedException();
-        }
     }
 }

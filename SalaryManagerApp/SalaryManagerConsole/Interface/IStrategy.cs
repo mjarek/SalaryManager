@@ -8,7 +8,9 @@ namespace SalaryManagerConsole.Interface
 {
    public interface IStrategy
     {
+        string Country { get;  }
+        string Currency { get; }
         double GetEuroRate();
-        void ReCalculateSalary();
+       
     }
 }
