@@ -1,0 +1,6 @@
+E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerApp\bin\SalaryManagerApp.dll.config
+E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerApp\bin\SalaryManagerApp.dll
+E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerApp\bin\SalaryManagerApp.pdb
+E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerApp\obj\Debug\CurrencyWS.csproj.CoreCompileInputs.cache
+E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerApp\obj\Debug\SalaryManagerApp.dll
+E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerApp\obj\Debug\SalaryManagerApp.pdb
