@@ -1,7 +1,16 @@
 E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerConsole\bin\Debug\SalaryManagerConsole.exe.config
 E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerConsole\bin\Debug\SalaryManagerConsole.exe
 E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerConsole\bin\Debug\SalaryManagerConsole.pdb
-E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerConsole\obj\Debug\SalaryManagerConsole.csprojResolveAssemblyReference.cache
 E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerConsole\obj\Debug\SalaryManagerConsole.csproj.CoreCompileInputs.cache
 E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerConsole\obj\Debug\SalaryManagerConsole.exe
 E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerConsole\obj\Debug\SalaryManagerConsole.pdb
+E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerConsole\bin\Debug\Castle.Core.dll
+E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerConsole\bin\Debug\Moq.dll
+E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerConsole\bin\Debug\nunit.framework.dll
+E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerConsole\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerConsole\bin\Debug\System.ValueTuple.dll
+E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerConsole\bin\Debug\Castle.Core.xml
+E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerConsole\bin\Debug\Moq.pdb
+E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerConsole\bin\Debug\Moq.xml
+E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerConsole\bin\Debug\nunit.framework.xml
+E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerConsole\bin\Debug\System.Threading.Tasks.Extensions.xml
