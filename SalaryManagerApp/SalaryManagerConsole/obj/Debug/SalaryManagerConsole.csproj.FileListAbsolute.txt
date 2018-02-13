@@ -1,0 +1,7 @@
+E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerConsole\bin\Debug\SalaryManagerConsole.exe.config
+E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerConsole\bin\Debug\SalaryManagerConsole.exe
+E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerConsole\bin\Debug\SalaryManagerConsole.pdb
+E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerConsole\obj\Debug\SalaryManagerConsole.csprojResolveAssemblyReference.cache
+E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerConsole\obj\Debug\SalaryManagerConsole.csproj.CoreCompileInputs.cache
+E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerConsole\obj\Debug\SalaryManagerConsole.exe
+E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerConsole\obj\Debug\SalaryManagerConsole.pdb

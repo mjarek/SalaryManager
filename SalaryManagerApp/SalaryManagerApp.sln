@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyWS", "SalaryManagerApp\CurrencyWS.csproj", "{E41A0B88-BA4C-4533-BD63-19D377E601C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalaryManager", "SalaryManager\SalaryManager.csproj", "{3EBEA134-724B-4F30-9FCA-542C2E65BCEB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalaryManagerConsole", "SalaryManagerConsole\SalaryManagerConsole.csproj", "{917E8075-12A4-47FA-A6A4-C78A17AB6CC7}"
 	ProjectSection(ProjectDependencies) = postProject
 		{E41A0B88-BA4C-4533-BD63-19D377E601C9} = {E41A0B88-BA4C-4533-BD63-19D377E601C9}
 	EndProjectSection
@@ -20,10 +20,10 @@ Global
 		{E41A0B88-BA4C-4533-BD63-19D377E601C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E41A0B88-BA4C-4533-BD63-19D377E601C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E41A0B88-BA4C-4533-BD63-19D377E601C9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3EBEA134-724B-4F30-9FCA-542C2E65BCEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3EBEA134-724B-4F30-9FCA-542C2E65BCEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3EBEA134-724B-4F30-9FCA-542C2E65BCEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3EBEA134-724B-4F30-9FCA-542C2E65BCEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{917E8075-12A4-47FA-A6A4-C78A17AB6CC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{917E8075-12A4-47FA-A6A4-C78A17AB6CC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{917E8075-12A4-47FA-A6A4-C78A17AB6CC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{917E8075-12A4-47FA-A6A4-C78A17AB6CC7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
