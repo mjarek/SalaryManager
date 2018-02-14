@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace SalaryManagerConsole.Repository
 {
-    class CreatorStrategy
+    public class CreatorStrategy
     {
         private Dictionary<string, Type> _strategies;
         public CreatorStrategy()
@@ -20,12 +20,19 @@ namespace SalaryManagerConsole.Repository
         {
             _strategies = new Dictionary<string, Type>();
 
-            foreach (var type in Assembly.GetExecutingAssembly().GetTypes())
+           // .Select(new { x => x.Name.ToLower, x => x });
+
+
+            //foreach (var type in Assembly.GetExecutingAssembly().GetTypes())
+            //{
+            //    if (type.GetInterface(typeof(IStrategy).ToString()) != null)
+            //    {
+            //        _strategies.Add(type.Name.ToLower(), type);
+            //    }
+            //}
+            foreach (var type in Assembly.GetExecutingAssembly().GetTypes().Where(x => x.GetInterface(typeof(IStrategy).ToString()) != null))
             {
-                if (type.GetInterface(typeof(IStrategy).ToString()) != null)
-                {
-                    _strategies.Add(type.Name.ToLower(), type);
-                }
+                 _strategies.Add(type.Name.ToLower(), type);
             }
         }
 
