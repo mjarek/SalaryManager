@@ -1,4 +1,5 @@
 ﻿using SalaryManagerConsole.Interface;
+using SalaryManagerConsole.Properties;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,10 +20,7 @@ namespace SalaryManagerConsole
         {
             foreach (var item in salary)
             {
-                var message = new StringBuilder();
-                
-                //Console.WriteLine(item.Name + " earns in after conversion from the euro :" + item.Amount.ToString());
-                Console.WriteLine(String.Format("{0} earns in {1} after conversion from the euro : {2} {3}", item.Name,item.Country,item.Amount,item.SignCurrency));
+              Console.WriteLine(String.Format(Resource.ConsoleSalaryMessage, item.Name,item.Country,item.Amount,item.SignCurrency));
             }
         }
     }

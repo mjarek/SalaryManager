@@ -1,9 +1,6 @@
 E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerConsole\bin\Debug\SalaryManagerConsole.exe.config
 E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerConsole\bin\Debug\SalaryManagerConsole.exe
 E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerConsole\bin\Debug\SalaryManagerConsole.pdb
-E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerConsole\obj\Debug\SalaryManagerConsole.csproj.CoreCompileInputs.cache
-E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerConsole\obj\Debug\SalaryManagerConsole.exe
-E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerConsole\obj\Debug\SalaryManagerConsole.pdb
 E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerConsole\bin\Debug\Castle.Core.dll
 E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerConsole\bin\Debug\Moq.dll
 E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerConsole\bin\Debug\nunit.framework.dll
@@ -14,3 +11,15 @@ E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerConsole\bin\Debug\Mo
 E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerConsole\bin\Debug\Moq.xml
 E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerConsole\bin\Debug\nunit.framework.xml
 E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerConsole\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerConsole\obj\Debug\SalaryManagerConsole.csproj.CoreCompileInputs.cache
+E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerConsole\obj\Debug\SalaryManagerConsole.exe
+E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerConsole\obj\Debug\SalaryManagerConsole.pdb
+E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerConsole\bin\Debug\NUnit3.TestAdapter.dll
+E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerConsole\bin\Debug\nunit.engine.dll
+E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerConsole\bin\Debug\nunit.engine.api.dll
+E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerConsole\bin\Debug\Mono.Cecil.dll
+E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerConsole\bin\Debug\Mono.Cecil.Pdb.dll
+E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerConsole\bin\Debug\Mono.Cecil.Mdb.dll
+E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerConsole\bin\Debug\Mono.Cecil.Rocks.dll
+E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerConsole\obj\Debug\SalaryManagerConsole.Properties.Resource.resources
+E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerConsole\obj\Debug\SalaryManagerConsole.csproj.GenerateResource.Cache

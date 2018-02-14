@@ -1,9 +1,6 @@
 E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerApp\bin\SalaryManagerApp.dll.config
 E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerApp\bin\SalaryManagerApp.dll
 E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerApp\bin\SalaryManagerApp.pdb
-E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerApp\obj\Debug\CurrencyWS.csproj.CoreCompileInputs.cache
-E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerApp\obj\Debug\SalaryManagerApp.dll
-E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerApp\obj\Debug\SalaryManagerApp.pdb
 E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerApp\bin\Castle.Core.dll
 E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerApp\bin\Moq.dll
 E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerApp\bin\nunit.framework.dll
@@ -14,3 +11,13 @@ E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerApp\bin\Moq.pdb
 E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerApp\bin\Moq.xml
 E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerApp\bin\nunit.framework.xml
 E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerApp\bin\System.Threading.Tasks.Extensions.xml
+E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerApp\obj\Debug\CurrencyWS.csproj.CoreCompileInputs.cache
+E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerApp\obj\Debug\SalaryManagerApp.dll
+E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerApp\obj\Debug\SalaryManagerApp.pdb
+E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerApp\bin\NUnit3.TestAdapter.dll
+E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerApp\bin\nunit.engine.dll
+E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerApp\bin\nunit.engine.api.dll
+E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerApp\bin\Mono.Cecil.dll
+E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerApp\bin\Mono.Cecil.Pdb.dll
+E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerApp\bin\Mono.Cecil.Mdb.dll
+E:\Repozytorium\SalaryManager\SalaryManagerApp\SalaryManagerApp\bin\Mono.Cecil.Rocks.dll
