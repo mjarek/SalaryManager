@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace SalaryManagerConsole.Repository
 {
-    class Denmark : IStrategy
+  public class Denmark : IStrategy
     {
-        public string Country => "Denmark";
-        public string Currency => "DKK";
+        public string Country => Helper.Country.Denmark.ToString();
+        public string Currency => Properties.Resource.DenmarkCurrency;
 
         public double GetEuroRate()
         {
