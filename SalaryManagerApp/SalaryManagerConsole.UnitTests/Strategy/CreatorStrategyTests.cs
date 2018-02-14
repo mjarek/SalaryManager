@@ -13,7 +13,7 @@ namespace SalaryManagerConsole.UnitTests
         [Test]
         [TestCase(Helper.Country.Denmark, "Denmark")]
         [TestCase(Helper.Country.Poland, "Poland")]
-        public void GetStrategy_WhenCalled_Return(Helper.Country insert,string output )
+        public void GetStrategy_InsertStrategyName_ReturnDefineStrategyClass(Helper.Country insert,string output )
         {
             var creator = new CreatorStrategy();
             var result = creator.GetStrategy(insert);

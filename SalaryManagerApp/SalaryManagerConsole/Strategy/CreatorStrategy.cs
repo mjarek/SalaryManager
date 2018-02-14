@@ -20,17 +20,7 @@ namespace SalaryManagerConsole.Repository
         {
             _strategies = new Dictionary<string, Type>();
 
-           // .Select(new { x => x.Name.ToLower, x => x });
-
-
-            //foreach (var type in Assembly.GetExecutingAssembly().GetTypes())
-            //{
-            //    if (type.GetInterface(typeof(IStrategy).ToString()) != null)
-            //    {
-            //        _strategies.Add(type.Name.ToLower(), type);
-            //    }
-            //}
-            foreach (var type in Assembly.GetExecutingAssembly().GetTypes().Where(x => x.GetInterface(typeof(IStrategy).ToString()) != null))
+           foreach (var type in Assembly.GetExecutingAssembly().GetTypes().Where(x => x.GetInterface(typeof(IStrategy).ToString()) != null))
             {
                  _strategies.Add(type.Name.ToLower(), type);
             }

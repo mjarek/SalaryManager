@@ -10,7 +10,7 @@ namespace SalaryManagerConsole.UnitTests.Strategy
     public class DenmarkTests
     {
         [Test]
-        public void GetEuroRate_WhenCalled_Return7()
+        public void GetEuroRate_WhenCalledForDenmark_Return7()
         {
             var mockStrategy = new Mock<IStrategy>();
                 mockStrategy.Setup(x => x.GetEuroRate()).Returns(7);

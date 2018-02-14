@@ -13,7 +13,7 @@ namespace SalaryManagerConsole.UnitTests.Strategy
     public class PolandTests
     {
         [Test]
-        public void GetEuroRate_WhenCalled_Return4Coma2()
+        public void GetEuroRate_WhenCalledForPoland_Return4Coma2()
         {
             var mockStrategy = new Mock<IStrategy>();
             mockStrategy.Setup(x => x.GetEuroRate()).Returns(4.2);
